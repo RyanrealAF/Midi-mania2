@@ -1,33 +1,16 @@
-# DrumExtract Backend Dependencies
-# Python 3.10 required for TensorFlow/Spleeter compatibility
-
-# Web Framework
 fastapi[all]==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 websockets==12.0
-
-# Data Validation
 pydantic==2.5.0
-
-# ML Pipeline
 spleeter==2.4.0
 basic-pitch==0.2.5
-
-# TensorFlow (Pinned for Spleeter compatibility)
 tensorflow==2.13.0
 protobuf==3.20.3
-
-# Audio Processing
 librosa==0.10.1
 soundfile==0.12.1
-audioread==3.0.1
-
-# Utilities
 numpy==1.24.3
 scipy==1.11.4
-
-# Development (optional)
 pytest==7.4.3
 httpx==0.25.1
 pytest-asyncio==0.21.1
